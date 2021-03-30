@@ -1,0 +1,151 @@
+body
+{
+background: linear-gradient(45deg,orange,white,green,blue);
+}
+header
+{
+	background:linear-gradient(45deg,teal,firebrick,steelblue);
+	padding:20px;
+	position: sticky;
+	top: 0px;
+}
+header h1
+{
+	margin:0px;
+	font-size:30px;
+	color:white;
+	text-align:right;
+}
+nav
+{
+	background:linear-gradient(45deg,violet,pink,limegreen);
+	padding:10px;
+	position: sticky;
+	top: 20px;
+}
+nav a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	margin:20px 40px;
+}
+nav a:hover
+{
+	box-shadow: 0 0 10px green;
+}
+.fa
+{
+	padding-right:6px;
+}
+
+.block{
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 100px;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+.block img
+{
+	margin: 10px;
+	border: 2px solid blue;
+}	
+.p{
+	text-align: center;
+	font-weight: bold;
+	background-color: skyblue;
+	color: green;
+	font-size: 20px;
+	padding:  8px;
+	border: 5px groove steelblue;
+}
+.c
+{
+	padding: 25px;
+ background: linear-gradient(45deg,blue,green,orange);
+}
+.c img
+{
+ width: 15%;
+ padding: 25px;
+ margin-left: 500px;
+ margin-top: 10px;
+}
+.c p
+{
+	font-size: 20px;
+	color: white;
+}
+footer
+{
+	background:linear-gradient(45deg,steelblue,cadetblue,dimgray);
+	padding:20px;
+	text-align: center;
+	color: pink;
+}	
+table	
+{
+  margin: 100px auto;			
+  font-size: 25px;
+   border-collapse: collapse;
+}
+@media (max-width: 700px)
+{
+	header
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	nav a
+	{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 3px;
+	}
+	.block
+	{
+		display: flex;
+		flex-direction: column;
+	}
+    .block img
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    .p
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    .c
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    .c img
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    .c p
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    footer
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    table
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+    iframe
+    {
+    	display: flex;
+		flex-direction: column;
+    }
+}
